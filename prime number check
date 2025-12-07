@@ -1,0 +1,13 @@
+public class primecheck{
+public static void main(string[]args){
+int num=11;
+boolean is prime=true;
+for(int i=2;i<=math.sqrt(num);i++){
+if(num%i==0){
+isprime=false;
+break;
+}
+}
+system.out.println(isprime);
+}
+}
